@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Prueba Formspree</title>
+  </head>
+
+  <body>
+
+    <h1>formspree.io</h1>
+
+    <p>
+      En esta página se hace una prueba de la herramienta <a href="https://formspree.io/">formspree.io</a>,
+      la cual sirve para hacer formularios sin escribir una sola línea de código extra del lado del servidor.
+    </p>
+
+    <p>
+      Esta herramienta es de paga, pero te permite hacer 50 envios de datos al mes en la verión gratuita.
+    </p>
+
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form action="https://formspree.io/f/xbjwgzwo" method="POST">
+    <label>
+      Your email:
+      <input type="email" name="_replyto">
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+    <label>
+      Your phone number:
+      <input type="number" name="phone">
+    </label>
+    <!-- your other form fields go here -->
+    <button type="submit">Send</button>
+    </form>
+
+  </body>
+
+  </html>
